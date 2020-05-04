@@ -1,0 +1,397 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/**header section code start**/
+
+.header-section{
+	width:100%;
+	padding: 0px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-left: 30px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#12a2b2;
+	transition: 1s;
+}
+
+/**header section code end**/
+
+/**banner-section code start**/
+.banner-section{
+	width:100%;
+	padding: 80px 0px;
+	background: url(../images/banner.png)center top no-repeat;
+	background-size: cover;
+}
+.banner-section h1{
+	font-size: 120px;
+	font-weight: 700;
+	text-align: center;
+	color:#fff;
+	margin-bottom: 30px;
+	margin-top: 170px;
+	letter-spacing: 2px;
+}
+.banner-section .divider{
+	width: 56%;
+	height: 3px;
+	background: #12a2b2;
+	margin:0px auto 20px;
+}
+
+.banner-section p{
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	color:#fff;
+	margin-bottom: 30px;
+}
+.banner-section .btn-primary {
+    font-size: 16px;
+    color: #fff;
+    background-color: #12a2b2;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 490px;
+    margin-top: -80px;
+    text-transform: uppercase;
+}
+.banner-section .btn-primary:hover{
+	background: transparent;
+	color: #fff;
+	border: 1px solid #12a2b2;
+	transition: 1s;
+}
+.banner-section img{
+	margin-top: 250px;
+    margin-left: -85px;
+	
+}
+
+/**banner section code end**/
+
+/**typo section code start**/
+
+.typo-section{
+	width: 100%;
+	padding: 70px 0px;
+	text-align: center;
+}
+.typo-section h1{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	color:#2d3950;
+	margin-bottom: 30px;	
+}
+.typo-section p{
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	color:#999999;
+	margin-bottom: 30px;
+}
+
+/**typo section code end**/
+
+
+/**device section code start**/
+
+.device-section{
+	width:100%;
+	padding:80px 0px;
+	text-align: center;
+}
+.device-section h4{
+	font-size: 22px;
+	font-weight: 500;
+	color:#2d3950;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.device-section p{
+	font-size: 16px;
+	font-weight: 500;
+	color:#999999;
+}
+/**device section code end**/
+
+/**portfolio code start**/
+
+.protfolio{
+	width:100%;
+	padding:80px 0px;
+	text-align: center;
+	background: #f6f9f9;
+}
+.protfolio h1{
+	font-size: 41px;
+	font-weight: 700;
+	text-align: center;
+	color:#2d3950;
+	margin-bottom: 20px;	
+}
+.protfolio p{
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	color:#909090;
+	margin-bottom: 50px;
+}
+
+.protfolio-box{
+	position:relative;
+	margin:10px;
+}
+.hover-box {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 109%;
+    height: 100%;
+    background: #15a4facf;
+    opacity: 0;
+    transition: 0.4s linear;
+}
+
+.protfolio-box .hover-box ul{
+	padding-left: 0;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.protfolio-box .hover-box ul li {
+  list-style: none:;
+  opacity: 1;
+  display:inline-block;
+  width: 40px;
+  height: 40px;
+  text-align:center;
+  line-height: 40px;
+  border:1px solid #fff;
+  border-radius: 3px;
+  margin:0 5px;
+  
+}
+.protfolio-box .hover-box ul li i {
+  color: #fff;
+}
+.protfolio-box:hover .hover-box{
+  opacity: 1;
+}
+
+/**portfolio code end**/
+
+/**Showcase code end**/
+
+.contact-area{
+	width:100%;
+	padding: 80px 0px;
+	background: url(../images/back.png)center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.contact-area h1{
+	font-size: 41px;
+	font-weight: 700;
+	text-align: center;
+	color:#fff;
+	margin-bottom: 20px;	
+}
+.contact-area p{
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	color:#999999;
+	margin-bottom: 30px;
+}
+.contact-area .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 1px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.contact-area .checkbox{
+	text-align: left;
+	color:#fff;
+}
+.contact-area .btn-primary {
+    color: #fff;
+    font-weight: 600;
+    background-color: transparent;
+    border-color: #ced4da;
+    margin-left: 426px;
+    margin-top: -36px;
+    padding: 4px 30px;
+}
+.contact-area .btn-primary:hover{
+	background: #12a2b2;
+	color:#fff;
+	transition: 1s;
+}
+
+.footer-section{
+	width:100%;
+	padding:30px;	
+}
+.footer-section p {
+    margin-top: 50px;
+    margin-bottom: -50px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.social-icons{
+	text-align: right;
+}
+.social-icons img {
+    text-align: right;
+    margin-top: 38px;  
+}
+
+.isStuck{
+    left:0px;
+    width:100%;
+    background: #9EC3E6;
+}
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 15;
+  width:100%;
+}
+
+/**************back to top code ***********************/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:block;
+    background: #15a4facf;
+}
+.btn-lg {
+    padding: 3px 10px;
+    border: 0px solid transparent;   
+    border-radius: 5px;
+}
+.btn-lg:hover{
+	background:#015496;
+	transition: 1s; 
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+  /**CSS CODE START**/
+
+  .banner-section h1 {
+    font-size: 86px;
+}
+	.banner-section .btn-primary {    
+    margin-left: 87px;
+    margin-top: 87px;
+}
+.typo-section h1 {
+    font-size: 30px;
+}
+.typo-section p {
+    font-size: 15px;
+}
+.portfolio h1 {
+    font-size: 40px;
+    line-height: 54px;
+}
+.contact-area h1 {
+    font-size: 40px;
+}
+.social-icons img {
+    margin-top: -34px;
+    margin-left: 8px;
+}
+	  
+
+  /**CSS CODE END**/
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ 	
+
+
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  	.banner-section .btn-primary {    
+    margin-left: 256px;
+}
+.typo-section p {
+    font-size: 11px;
+}
+.device-section h4 {
+    font-size: 17px;
+}
+.device-section p {
+    font-size: 9px;
+}
+.portfolio h1 {
+    font-size: 43px;
+}
+.contact-area .btn-primary {   
+    margin-left: 200px;
+}
+
+
+  
+}
